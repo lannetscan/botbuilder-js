@@ -2,8 +2,9 @@
   "name": "botbuilder",
   "author": "Microsoft Corp.",
   "description": "Bot Builder is a framework for building rich bots on virtually any platform.",
-  "version": "4.0.0-preview1.2",
+  "version": "4.0.0-preview1.1111",
   "license": "MIT",
+  "publishConfig": { "registry": "https://botbuilder.myget.org/F/botbuilder-v4-js-daily/npm/" },
   "keywords": [
     "botbuilder",
     "botframework",
