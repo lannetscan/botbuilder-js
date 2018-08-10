@@ -17,11 +17,11 @@ script:
 
 deploy:
   echo 'Begin deploy'
+  provider: myget
   api_key:
     secure: AAT/ORZ5sV0LqzjfuvO3Rh697O2uLd/gRxSA9GOtBWZnKtvqoGqGMx6Tdlhx9JQh7NMJhbTNoS589rdfVTfL4LT+7ghYfKJn7z+zTv8KWYdapudktv0HVPmN1RpsS8fG9qZ4HpMokq7giGMv8awr4ez2hbE5TD7Ma79JzLTy+IEJSS+ZpMq/Cc25n9gcHhqrUjn2mNCeGyVtr3WPT+b2B61xmsd1I59qSgOoslpcOHNp/Iz05ERThgVgOq3+xSSar/ne7fp5+4kXQnbdVZWVCbROT/NEa6owVAkq946Yk+5yecNPi3ltlFdrGwuhcwWwNN8AuO86UqnlbIy2GvESONhdifOFiwBHxilUxkNX+VTQui0RioEiabhqj9tfeGPEWAN5UmVLmrejrI+xg+ry3V23wDl3N7QyugdesJJSwe1X77+sCe/7egveVClQBRpRN8utOhHKtdZIllN19JN19lOCSjBIXzbntz2ZuBDD74N/Dy7Fz7b2Dy8wiKoHxkHjauBoNWxCTPQvpLXDf8rE+Lw42/sNSQVdqPi3mIHV62awiQzCmBuYkeTCd/ug4ovv67fdW+wT75/eL2kmROX+Ks4MxocMfetMcVV3G82cRcEx5Bf3SoOY78SN1BDNXGZr5Rd0qU9R/+omCyWOID6LumwqN/z1OgYnmwRrZl4VMlg=
   on:
-    tags: true
-    branch: master
+    branch: v-brhale-dailybuild
 
 cache:
   directories:
